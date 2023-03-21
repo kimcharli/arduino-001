@@ -1,17 +1,20 @@
 # ardunio 001
 
 
-## VS code setup
+## Install PlatformIO
+```
+brew install platformio
+```
+
+
+## Optional VS code setup
 
 Install PlatformIO extension
 https://platformio.org/install/ide?install=vscode
 
-'''
-brew info platformio
-'''
 
+## create a project (honeypot in this case)
 browse pio boards
-
 ```
 ckim@ckim-mbp arduino-001 % pio boards esp32dev
 
@@ -24,8 +27,6 @@ mhetesp32devkit  ESP32  240MHz       4MB      320KB  MH ET LIVE ESP32DevKIT
 ckim@ckim-mbp arduino-001 % 
 ```
 
-
-## create project honepot
 
 ```
 ckim@ckim-mbp arduino-001 % mkdir honeypot
